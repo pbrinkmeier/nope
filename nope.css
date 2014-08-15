@@ -15,4 +15,14 @@ body {
   color: rgb(127,26,26);
   text-transform: uppercase;
   text-align: center;
+  text-shadow:
+    .02em .02em 0 rgb(216,186,107),
+    .05em .05em 0 rgb(127,26,26)
+  ;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  #nope {
+    font-size: 25vw;
+  }
 }
